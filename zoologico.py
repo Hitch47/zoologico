@@ -64,15 +64,12 @@ def fazer_movimento(animal: Animal):
 if __name__ == "__main__":
     rex = Cachorro("Rex")
     mimi = Gato("Mimi")
-    richard = Gato("Richard")
     mimosa = Vaca("Mimosa")
     donald = Pato("Donald")
     ze_jacare = Jacare("Zé Jacaré")
 
     fazer_som(rex)
     fazer_movimento(rex)
-
-    fazer_som(richard)
 
     fazer_som(mimi)
     fazer_movimento(mimi)
